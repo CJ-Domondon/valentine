@@ -9,7 +9,7 @@ function showMessage(response) {
       noButton.style.position = "absolute";
   
       // Change image source to "gun.gif"
-      document.getElementsByClassName("images")[0].src = "200w.gif";
+      document.getElementsByClassName("images")[0].src = "images/200w.gif";
   
       // Generate random coordinates within the visible container
       const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -37,7 +37,7 @@ function showMessage(response) {
       yesMessage.textContent = "Yeeeey see you on February 14 after our class Love😘😘";
       yesMessage.style.display = "block";
       yesMessage.style.fontStyle = "normal";
-      document.getElementsByClassName("images")[0].src = "blush.gif";
+      document.getElementsByClassName("images")[0].src = "images/blush.gif";
   
       // Remove yes button
       document.getElementById("yesButton").remove();
